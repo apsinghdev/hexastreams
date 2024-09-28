@@ -7,3 +7,27 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.gradient-border {
+  position: relative;
+  background: #172B4C;
+  border-radius: 0.5rem;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: -2px; right: -2px; bottom: -2px; left: -2px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(to right, #06b6d4, #5c54f6);
+}
+
+.gradient-border::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: inherit;
+}
