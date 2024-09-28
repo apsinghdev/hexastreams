@@ -3,7 +3,7 @@ import { FaArrowCircleUp } from 'react-icons/fa';
 
 export const TopNavbar = () => {
     return (
-        <div className="flex items-center space-x-3 border-white">
+        <div className="flex items-center space-x-3">
             <button className="bg-prussian-blue rounded-lg p-2 bold text-lg">
                 <FiChevronLeft className="text-white w-6 h-6 stroke-2" />
             </button>
