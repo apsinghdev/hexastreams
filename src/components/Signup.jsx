@@ -104,7 +104,7 @@ export const Signup = () => {
                         id="email"
                         type="email"
                         className="block shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-2"
-                        placeholder="buitbyajeet@gmail.com"
+                        placeholder="hexastream@gmail.com"
                         name="username"
                         onChange={handleUserInput}
                     ></input>
