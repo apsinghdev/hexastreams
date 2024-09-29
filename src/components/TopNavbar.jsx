@@ -8,9 +8,9 @@ export const TopNavbar = () => {
                 <FiChevronLeft className="text-white w-6 h-6 stroke-2" />
             </button>
             <p className="text-white text-xl font-semibold">Encoder</p>
-            <div className="flex items-center justify-center space-x-1 text-sm font-bold text-pale-blue gradient-border w-24 h-6">
-                <p>Upgrade</p>
-                <FaArrowCircleUp />
+            <div className="hidden md:block lg:block flex items-center justify-center space-x-1 text-sm font-bold text-pale-blue gradient-border w-24 h-6 pl-2.5">
+                <p className="inline">Upgrade</p>
+                <FaArrowCircleUp className="inline-block" />
             </div>
         </div>
     )

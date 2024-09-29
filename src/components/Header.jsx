@@ -3,7 +3,7 @@ import { UserProfile } from "./UserProfile"
 
 export const Header = () => {
     return (
-        <div className="flex items-center justify-between">
+        <div className="flex w-full items-center justify-between">
             <TopNavbar></TopNavbar>
             <UserProfile></UserProfile>
         </div>
