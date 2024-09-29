@@ -2,7 +2,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
-function Signin() {
+export const Signin = () => {
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
         username: '',
@@ -109,5 +109,3 @@ function Signin() {
         </div>
     );
 }
-
-export default Signin;
