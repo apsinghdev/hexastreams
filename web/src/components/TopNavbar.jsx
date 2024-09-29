@@ -1,10 +1,15 @@
 import { FiChevronLeft } from "react-icons/fi";
 import { FaArrowCircleUp } from 'react-icons/fa';
+import { useNavigate } from "react-router-dom";
 
 export const TopNavbar = () => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/signin");
+    }
     return (
         <div className="flex items-center space-x-3">
-            <button className="bg-prussian-blue rounded-lg p-2 bold text-lg">
+            <button className="bg-prussian-blue rounded-lg p-2 bold text-lg" onClick={handleClick}>
                 <FiChevronLeft className="text-white w-6 h-6 stroke-2" />
             </button>
             <p className="text-white text-xl font-semibold">Encoder</p>
