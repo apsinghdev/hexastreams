@@ -1,7 +1,7 @@
 import express from "express";
 // import router from "./routes/index.js";
 import cors from "cors";
-// import connectDB from "./db.js";
+import connectDB from "./db.js";
 
 const PORT = 5000;
 const app = express();
@@ -12,7 +12,7 @@ app.use(express.json());
 // app.use("/api/v1", router);
 
 try {
-    // await connectDB();
+    await connectDB();
     app.listen(PORT, () => {
         console.log(`Server is listening on port ${PORT}`);
     });
