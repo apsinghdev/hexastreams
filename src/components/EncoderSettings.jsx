@@ -5,7 +5,7 @@ import { AiOutlineSetting } from 'react-icons/ai';
 
 export const EncoderSettings = () => {
     return (
-        <div className='w-full xl:w-[65rem] h-1/3 lg:h-1/2 xl:h-[40rem] flex flex-col'>
+        <div className='w-full xl:w-[65rem] h-1/3 lg:h-1/2 xl:h-[92%] flex flex-col'>
             <div className='bg-black rounded-xl h-[95%]'>
                 <div>
                     <p>Set Up Your Hexastream</p>
