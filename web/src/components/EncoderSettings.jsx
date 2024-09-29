@@ -1,21 +1,13 @@
-import { AiOutlinePlayCircle } from 'react-icons/ai';
 import { MdEdit } from 'react-icons/md';
 import { BiCode } from 'react-icons/bi';
 import { AiOutlineSetting } from 'react-icons/ai';
+import { EncoderControlsContainer } from './EncoderControlsContainer';
 
 export const EncoderSettings = () => {
     return (
         <div className='w-full xl:w-[65rem] h-1/3 lg:h-1/2 xl:h-[92%] flex flex-col'>
-            <div className='bg-black rounded-xl h-[95%]'>
-                <div>
-                    <p>Set Up Your Hexastream</p>
-                    <p>Copy and paste RTMP settings into your streaming software.</p>
-                </div>
-                <form></form>
-                <div>
-                    <AiOutlinePlayCircle />
-                    <p>Explore how to connect OBS, Zoom, vMix</p>
-                </div>
+            <div className='bg-black rounded-xl h-[95%] flex flex-col items-center'>
+                <EncoderControlsContainer />
             </div>
             <div className='flex items-center justify-between space-x-3 mt-3 pr-4'>
                 <div>
