@@ -1,5 +1,5 @@
 import { Dashboard } from "./components/Dashboard";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Signin } from "./components/Signin";
 import { Signup } from "./components/Signup";
 
@@ -9,6 +9,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Navigate to="/signin" replace />} />
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/signin" element={<Signin />}></Route>
           <Route path="/dashboard" element={<Dashboard />}></Route>
