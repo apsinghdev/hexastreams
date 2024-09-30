@@ -51,7 +51,7 @@ export const Signup = () => {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center h-screen h-[70%] w-[90%]">
             <div
                 className="bg-white rounded-md flex justify-center items-center"
             >
