@@ -4,7 +4,7 @@ import { EncoderForm } from './EncoderForm';
 
 export const EncoderControlsContainer = () => {
     return (
-        <div className='flex flex-col items-center md:w-[50%] w-[80%] h-full'>
+        <div className='flex flex-col items-center md:w-[50%] w-[80%] h-full overflow-hidden'>
             <EncoderHeading />
             <EncoderForm />
             {/* <EncoderFooter /> */}
