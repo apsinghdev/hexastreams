@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 export const ChatFooter = () => {
     const [message, setMessage] = useState('');
     return (
-        <div className="text-white rounded-lg shadow-lg w-full mt-20 h-[35%] xl:h-[20%] xl:pt-64">
+        <div className="text-white rounded-lg shadow-lg w-full mt-20 h-[40%] xl:h-[20%] xl:pt-64">
             <div className="bg-[#172554] p-1 rounded-md w-full flex items-start space-x-2 mb-1 mt-3">
                 <AlertTriangle className="text-white flex-shrink-0" size={20} />
                 <p className="text-sm text-white">
