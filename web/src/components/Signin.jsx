@@ -102,6 +102,10 @@ export const Signin = () => {
                             {" "}
                             Sign Up
                         </Link>
+                        <Link to="/dashboard" className="underline">
+                            {" "}
+                            | dashboard
+                        </Link>
                     </p>
                 </form>
             </div>

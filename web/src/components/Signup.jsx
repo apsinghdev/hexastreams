@@ -134,6 +134,10 @@ export const Signup = () => {
                             {" "}
                             Login
                         </Link>
+                        <Link to="/dashboard" className="underline">
+                            {" "}
+                            | dashboard
+                        </Link>
                     </p>
                 </form>
             </div>
