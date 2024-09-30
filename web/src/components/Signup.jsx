@@ -53,7 +53,6 @@ export const Signup = () => {
     return (
         <div className="flex justify-center items-center h-screen">
             <div
-                style={{ height: "80vh", width: "60vh" }}
                 className="bg-white rounded-md flex justify-center items-center"
             >
                 <form

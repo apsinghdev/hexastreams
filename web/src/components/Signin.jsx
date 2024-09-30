@@ -49,7 +49,6 @@ export const Signin = () => {
     return (
         <div className="flex justify-center items-center h-screen">
             <div
-                style={{ height: "60vh", width: "60vh" }}
                 className="bg-white rounded-md flex justify-center items-center"
             >
                 <form
