@@ -3,7 +3,11 @@ import { ChatBody } from "./ChatBody"
 import { ChatFooter } from "./ChatFooter"
 
 export const Chat = () => {
-    <div>
-
-    </div>
+    return (
+        <div className="w-full h-[80%] xl:h-[90%]">
+            <ChatHeader />
+            <ChatBody />
+            <ChatFooter />
+        </div>
+    )
 }

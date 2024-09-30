@@ -18,7 +18,7 @@ export const Destinations = () => {
                 </div>
                 <div id="infoDiv" className='flex justify-between'>
                     <p className='text-white'><span className='font-bold'>0 of 2</span> active</p>
-                    <p className='text-white font-thin text-slate-600'>Toggle all <spac>OFF | ON</spac></p>
+                    <p className='text-white font-thin text-slate-600'>Toggle all <span>OFF | ON</span></p>
                 </div>
             </div>
             <DestinationsBody />
